@@ -4,11 +4,15 @@ import App from './App.tsx';
 import { initializeText } from './utils/text';
 import './index.css';
 
-// Initialize text content before rendering
-await initializeText();
-
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+const initializeApp = async () => {
+  await initializeText();
+  const root = createRoot(document.getElementById('root')!);
+  root.render(
+    <StrictMode>
+      <App />
+    </StrictMode>
+  );
+}
+initializeApp().catch((error) => {
+  console.error("Error initializing app:", error);
+});
