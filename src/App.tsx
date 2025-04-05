@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { useEffect, useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -34,10 +35,12 @@ function App() {
       if (!instance) return;
 
       ScrollTrigger.scrollerProxy(containerRef.current, {
-        scrollTop(value) {
-          return arguments.length 
-            ? instance.scrollTo(value, 0, 0)
-            : instance.scroll.instance.scroll.y;
+        scrollTop(value: any): any {
+          if (arguments.length) {
+            instance.scrollTo(value);
+          } else {
+            return instance.scrollTo(0);
+          }
         },
         getBoundingClientRect() {
           return {
@@ -55,7 +58,7 @@ function App() {
       instance.on('scroll', ScrollTrigger.update);
 
       // Update ScrollTrigger when window resizes
-      ScrollTrigger.addEventListener('refresh', () => instance.update());
+      //ScrollTrigger.addEventListener('refresh', () => instance.update());
 
       ScrollTrigger.refresh();
     });

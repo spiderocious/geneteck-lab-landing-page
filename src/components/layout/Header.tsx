@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Microscope, BookOpen, Shield, Activity, Users, Settings } from 'lucide-react';
 import { getText } from '../../utils/text';
