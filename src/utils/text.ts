@@ -171,8 +171,7 @@ const getFallbackContent = (): TextContent => ({
       },
       {
         title: "Clinical Integration",
-        description:
-          "Seamlessly integrating genomic insights into clinical practice.",
+        description: "Seamlessly integrating genomic insights into clinical practice.",
       },
     ],
   },
@@ -229,8 +228,7 @@ const getFallbackContent = (): TextContent => ({
   research: {
     title: "Full-Stack Sandboxes.",
     subtitle: "Fly.io Metal.",
-    description:
-      "Fly Machines are hardware-virtualized containers with a REST API.",
+    description: "Fly Machines are hardware-virtualized containers with a REST API.",
     features: [
       {
         title: "User-Specific Routing",
@@ -250,4 +248,38 @@ const getFallbackContent = (): TextContent => ({
       },
     ],
   },
+  contact: {
+    title: "",
+    description: "",
+    location: {
+      country: "",
+      address: "",
+      email: "",
+      phone: ""
+    },
+    form: {
+      fullName: "",
+      email: "",
+      message: "",
+      submit: ""
+    }
+  },
+  footer: {
+    company: {
+      name: "",
+      description: ""
+    },
+    quickLinks: {
+      title: "",
+      links: []
+    },
+    services: {
+      title: "",
+      items: []
+    },
+    contact: {
+      title: ""
+    },
+    copyright: ""
+  }
 });
