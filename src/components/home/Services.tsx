@@ -144,7 +144,7 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {services.map((service: any, index: number) => (
+          {services.map((service: any, index: num) => (
             <ServiceCard
               key={service.title}
               icon={<service.icon />}
