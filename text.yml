@@ -1,0 +1,130 @@
+header:
+  logo: Genetech
+  nav:
+    about: About
+    research: Research
+    services: Services
+    publications: Publications
+    team: Team
+    contact: Contact
+  cta:
+    portal: Partner Portal
+    consultation: Schedule Consultation
+
+hero:
+  title: Restoring Laughter Through 
+  subtitle: Genomic
+  emphasis: Innovation
+  description: >
+    Pioneering breakthrough genomic diagnostics and research across Africa, Genetech is committed to bridging health inequalities,
+    providing early disease detection, and developing innovative therapies for chronic diseases including cancer,
+    cardiovascular, respiratory and metabolic conditions.
+  cta: Explore Our Research
+
+about:
+  title: Restoring Laughter Through Genomics
+  subtitle: Bridging Health Inequalities Across Africa
+  description: >
+    Genetech recognizes the trend of communicable and non-communicable diseases in Africa and the urgent 
+    need to bridge health inequalities across developing countries on the continent. We utilize advancements 
+    in genomics for early diagnosis, paving the pathway for improving treatment options and therapies for 
+    chronic diseases including cardiovascular, respiratory and metabolic diseases.
+  features:
+    - title: Oncology Research Focus
+      description: Significant attention on oncology research utilizing genomic advancements for early diagnosis and improved treatment pathways.
+    - title: Scientific Collaboration
+      description: Supporting WHO and government agendas by establishing lucrative domain that fosters scientific collaboration with organizations and academic researchers.
+    - title: Advanced Technology
+      description: Leveraging advanced technology to create drugs derived from phytochemicals and uncovering biological mechanisms underlying diseases manifestation.
+    - title: Diagnostic Excellence
+      description: Pushing boundaries as frontiers of functional genomics research, producing credible data and setting standards for clinical genetic testing.
+
+services:
+  title: World-Class Genomic Diagnostics
+  subtitle: With Excellence and Precision
+  description: >
+    Genetech is dedicated to delivering fast, accurate, and excellent genomic services that enhance patient care,
+    accelerate drug discovery, and advance life-changing therapies for major health challenges.
+  features:
+    - title: Early Disease Detection
+      description: Our advanced genomic diagnostic platform enables early identification of disease markers for improved treatment outcomes.
+      details:
+        methodology: Utilizing next-generation sequencing technology for comprehensive genomic analysis.
+        impact: Earlier intervention leading to better patient outcomes and treatment success.
+        timeline: Rapid diagnostic results with comprehensive genomic profiling.
+    - title: Clinical Genetic Testing
+      description: Setting standards for clinical genetic testing with credible data and consistent practices across Africa.
+      details:
+        methodology: Standardized protocols ensuring high-quality, reproducible results.
+        impact: Improved diagnostic accuracy and healthcare decision-making.
+        timeline: Continuous improvement through rigorous quality assurance processes.
+    - title: Oncology Research
+      description: Specialized focus on genomic factors in cancer development, progression, and treatment response.
+      details:
+        methodology: Comprehensive genomic profiling of tumor samples using advanced sequencing techniques.
+        impact: Development of targeted therapies based on specific genetic markers.
+        timeline: Ongoing research with regular publication of findings.
+    - title: Phytochemical Research
+      description: Creating innovative drugs derived from natural phytochemicals through advanced genomic understanding.
+      details:
+        methodology: Identifying bioactive compounds and their genomic interactions.
+        impact: Development of novel treatment approaches with fewer side effects.
+        timeline: Progressive research pipeline from discovery to clinical application.
+  buttons:
+    learnMore: Learn More
+    backToOverview: Back to Overview
+    methodology: Methodology
+    impact: Impact
+    timeline: Timeline
+
+contact:
+  title: Get in Touch
+  description: Have questions about our genomic research or diagnostic services? We'd love to hear from you. Reach out to our multidisciplinary team of professionals.
+  location:
+    country: Nigeria
+    address: The Koko Samba street, Lekki phase 2, Lagos, Nigeria
+    email: info@genetech.org
+    phone: +23491 912 9134
+  form:
+    fullName: Full Name
+    email: Email Address
+    message: Message
+    submit: Send Message
+
+footer:
+  company:
+    name: Genetech
+    description: Dedicated to discerning the potential of genomics and next-generation technologies to deliver excellent healthcare through research and diagnostics.
+  quickLinks:
+    title: Quick Links
+    links:
+      - About Us
+      - Services
+      - Research
+      - Contact
+  services:
+    title: Services
+    items:
+      - Genomic Diagnostics
+      - Clinical Genetic Testing
+      - Oncology Research
+      - Drug Discovery
+  contact:
+    title: Contact
+  copyright: © {year} Genetech. All rights reserved.
+
+research:
+  title: Pushing Boundaries in Genomics
+  subtitle: For a Healthier Future
+  description: >
+    The Genetech laboratory is set to push boundaries as frontiers of functional genomics research, producing credible data and setting standards. 
+    Our collective efforts on clinical genetic testing support the efficiency, quality healthcare and consistency of genomic diagnostic practice.
+  features:
+    - title: Cancer Research
+      description: Focused research on genomic factors in cancer development, progression, and treatment response to develop targeted therapies.
+    - title: Cardiovascular Disease
+      description: Investigating genetic markers and mechanisms underlying cardiovascular conditions to improve prevention and treatment.
+    - title: Diabetes Research
+      description: Exploring the genomic basis of diabetes to develop personalized treatment approaches and prevention strategies.
+    - title: Rare Disease Diagnostics
+      description: Specialized testing and research for rare genetic disorders to improve diagnosis and develop potential treatments.
