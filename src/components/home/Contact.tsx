@@ -17,7 +17,6 @@ const Contact = () => {
     }));
   };
   const submitted = new URLSearchParams(window.location.search).get('submitted');
-
   return (
     <section
       id="contact"
