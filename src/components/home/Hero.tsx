@@ -56,7 +56,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#f5f3ff] via-[#fdf2f8] to-[#e0f2fe]"
     >
       {/* Animated Background Illustrations */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="inset-0 overflow-hidden">
         <div className="relative w-full h-full">
           {/* Hot Air Balloons */}
           <FloatingElement delay={0} duration={15}>

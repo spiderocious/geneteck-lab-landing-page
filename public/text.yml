@@ -90,6 +90,7 @@ contact:
     email: Email Address
     message: Message
     submit: Send Message
+    submitted: Your contact request has been received, you will be contacted soon.
 
 footer:
   company:

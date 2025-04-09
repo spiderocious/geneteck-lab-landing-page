@@ -16,18 +16,14 @@ const Contact = () => {
       [e.target.name]: e.target.value
     }));
   };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formState);
-  };
+  const submitted = new URLSearchParams(window.location.search).get('submitted');
 
   return (
     <section
       id="contact"
       className="relative min-h-screen bg-[#0066FF] overflow-hidden"
       style={{
-        backgroundImage: `url('https://moniepoint.com/contact/world.svg')`,
+        backgroundImage: `url('/world.svg')`,
         backgroundPosition: 'right center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'contain'
@@ -64,7 +60,7 @@ const Contact = () => {
           >
             <div className="flex items-center gap-3 mb-8">
               <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
-                <img src="https://moniepoint.com/images/ng.svg" alt="Nigeria" className="w-5 h-5" />
+                <img src="./uk.svg" alt="Nigeria" className="w-5 h-5" />
               </div>
               <span className="text-white text-xl">{getText('contact.location.country')}</span>
             </div>
@@ -98,9 +94,23 @@ const Contact = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            onSubmit={handleSubmit}
+            action="https://formsubmit.co/12ba9d3b26327113045bb82706a12f6c"
+            method="POST"
             className="bg-white rounded-[32px] p-12 space-y-6"
           >
+
+            {
+              submitted && (
+                <div className="bg-green-500 text-white p-4 rounded-lg">
+                  {getText('contact.form.submitted')}
+                </div>
+              )
+            }
+            <input type="hidden" name="_subject" value="New Contact Us Form Filled" />
+            <input type="hidden" name="_cc" value="genetecklabs@gmail.com"/>
+            <input type="hidden" name="_next" value={`${window.location.origin}/#contact?submitted=true`} />
+            <input type="hidden" name="_captcha" value="false"/>
+
             <input
               type="text"
               name="name"
@@ -130,7 +140,9 @@ const Contact = () => {
               className="w-full px-6 py-4 bg-gray-50 rounded-2xl border-0 focus:ring-2 focus:ring-blue-500 text-gray-900 resize-none"
               required
             />
-            
+            <input type="hidden" name="_autoresponse" value="Hey there, we have received your request to contact us, we will get back to you shortly, Kind regards. "/>
+
+
             <button
               type="submit"
               className="w-full py-4 bg-[#0066FF] text-white rounded-2xl font-medium hover:bg-[#0052CC] transition-colors"

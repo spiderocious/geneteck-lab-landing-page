@@ -84,7 +84,7 @@ const Research = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              src="https://fly.io/phx/ui/images/fly-globe-cb332f77ddb429aa3ef4e0a2c6c592ba.png?vsn=d"
+              src="./fly-globe.png"
               alt="Global Infrastructure"
               className="w-full h-auto"
             />
