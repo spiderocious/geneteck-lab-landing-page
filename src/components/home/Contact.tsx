@@ -106,7 +106,7 @@ const Contact = () => {
               )
             }
             <input type="hidden" name="_subject" value="New Contact Us Form Filled" />
-            <input type="hidden" name="_cc" value="genetecklabs@gmail.com"/>
+            <input type="hidden" name="_cc" value="genetecklab@gmail.com"/>
             <input type="hidden" name="_next" value={`${window.location.origin}/#contact?submitted=true`} />
             <input type="hidden" name="_captcha" value="false"/>
 

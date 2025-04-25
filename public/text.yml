@@ -1,5 +1,5 @@
 header:
-  logo: Genetech
+  logo: Geneteck
   nav:
     about: About
     research: Research
@@ -16,7 +16,7 @@ hero:
   subtitle: Genomic
   emphasis: Innovation
   description: >
-    Pioneering breakthrough genomic diagnostics and research across Africa, Genetech is committed to bridging health inequalities,
+    Pioneering breakthrough genomic diagnostics and research across Africa, Geneteck is committed to bridging health inequalities,
     providing early disease detection, and developing innovative therapies for chronic diseases including cancer,
     cardiovascular, respiratory and metabolic conditions.
   cta: Explore Our Research
@@ -25,7 +25,7 @@ about:
   title: Restoring Laughter Through Genomics
   subtitle: Bridging Health Inequalities Across Africa
   description: >
-    Genetech recognizes the trend of communicable and non-communicable diseases in Africa and the urgent 
+    Geneteck recognizes the trend of communicable and non-communicable diseases in Africa and the urgent 
     need to bridge health inequalities across developing countries on the continent. We utilize advancements 
     in genomics for early diagnosis, paving the pathway for improving treatment options and therapies for 
     chronic diseases including cardiovascular, respiratory and metabolic diseases.
@@ -43,7 +43,7 @@ services:
   title: World-Class Genomic Diagnostics
   subtitle: With Excellence and Precision
   description: >
-    Genetech is dedicated to delivering fast, accurate, and excellent genomic services that enhance patient care,
+    Geneteck is dedicated to delivering fast, accurate, and excellent genomic services that enhance patient care,
     accelerate drug discovery, and advance life-changing therapies for major health challenges.
   features:
     - title: Early Disease Detection
@@ -83,7 +83,7 @@ contact:
   location:
     country: United Kingdom
     address: CB1 9HR, 108 Fisher Lane, Cambridge
-    email: genetecklabs@gmail.com
+    email: genetecklab@gmail.com
     phone: +447 5630 00867
   form:
     fullName: Full Name
@@ -94,7 +94,7 @@ contact:
 
 footer:
   company:
-    name: Genetech
+    name: Geneteck
     description: Dedicated to discerning the potential of genomics and next-generation technologies to deliver excellent healthcare through research and diagnostics.
   quickLinks:
     title: Quick Links
@@ -112,13 +112,13 @@ footer:
       - Drug Discovery
   contact:
     title: Contact
-  copyright: © {year} Genetech. All rights reserved.
+  copyright: © {year} Geneteck. All rights reserved.
 
 research:
   title: Pushing Boundaries in Genomics
   subtitle: For a Healthier Future
   description: >
-    The Genetech laboratory is set to push boundaries as frontiers of functional genomics research, producing credible data and setting standards. 
+    The Geneteck laboratory is set to push boundaries as frontiers of functional genomics research, producing credible data and setting standards. 
     Our collective efforts on clinical genetic testing support the efficiency, quality healthcare and consistency of genomic diagnostic practice.
   features:
     - title: Cancer Research
